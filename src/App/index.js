@@ -1,7 +1,6 @@
-import React from 'react'
+import Signin from './Signin'
+import Signup from './Signup'
+import Signuot from './Signout'
+import Recover from './Recover'
 
-const App = () => (
-  <div className='try'>Helo from App component</div>
-)
-
-export default App
+export {Signin, Signup, Signout, Recover}
