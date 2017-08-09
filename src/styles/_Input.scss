@@ -1,0 +1,22 @@
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
+textarea,
+select {
+  border: none;
+  box-shadow: none;
+	box-sizing: inherit; // Forced to replace inherit values of the normalize.css
+	font-family: 'Oxygen', 'Lato';
+  width: 100%;
+  font-size: 1rem;
+
+	&:focus {
+    // border: 1px solid #b1b1b1;
+		outline: 0;
+		background: white;
+	}
+}

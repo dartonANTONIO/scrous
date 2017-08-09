@@ -1,6 +1,11 @@
-import Signin from './Signin'
-import Signup from './Signup'
-import Signuot from './Signout'
-import Recover from './Recover'
+import React from 'react'
+import { Signin } from './Auth'
+import { Route } from 'react-router-dom'
 
-export {Signin, Signup, Signout, Recover}
+const App = () => (
+  <div>
+    <Route path='/' component={Signin} />
+  </div>
+)
+
+export default App
