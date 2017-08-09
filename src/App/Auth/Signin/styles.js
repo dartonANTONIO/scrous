@@ -31,6 +31,7 @@ export const phrase = {
   fontSize: '1.9rem',
   fontWeight: '300',
   textAlign: 'center',
+  lineHeight: '2.8rem'
 }
 export const bold = {
   fontWeight: '700'
@@ -45,7 +46,6 @@ export const input = {
   margin:'.31rem 0',
   textAlign: 'center',
   fontSize:'.98rem',
-  width: '80%',
   ':focus': {
     background: '#fff',
     border: '.1rem solid #a9b7b7'
@@ -55,11 +55,11 @@ export const input = {
   }
 }
 export const button = {
-  width: '80%',
   borderRadius: '1rem',
   border: 'none',
   background: '#4d4d4d',
-  minHeight: '3.125rem',
+  height: '3.125rem',
+  width: '100%',
   color:'#fff',
   fontFamily: 'Oxygen',
   fontSize:'.98rem',

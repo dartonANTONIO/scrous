@@ -13,10 +13,10 @@ const Signin = () => (
       <div style={styles.phrase}> Your space to be <span style={{fontWeight: 700}}>master</span>, <br/>find your favorite <span style={{fontWeight: 700}}>community</span> and start teaching</div>
     </div>
     <div style={styles.sidebar}>
-      <div>
-        <div style={{width: '80%', margin: '1rem auto'}}>
+      <div style={{width: '17rem'}}>
+        <div style={{margin: '1rem auto'}}>
           <div style={{fontSize: '1.225rem'}}>Let's go in road</div>
-          <div style={{fontWeight: '300', fontSize:'1.1625rem', textAlign: 'left', margin: '1rem auto', lineHeight:'1.7625rem'}}>
+          <div style={{fontWeight: '300', fontSize:'1.125rem', margin: '1rem auto', lineHeight:'1.625rem'}}>
             New here? Join to the best community <span style={{fontWeight: '500'}}>creating your account.</span>
           </div>
         </div>
