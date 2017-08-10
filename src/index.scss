@@ -1,2 +1,24 @@
 @import './styles/index';
 
+.editor-wrapper{
+  .editor-header {
+    height: 4.625rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Oxygen;
+    font-weight: 300;
+    color: gray;
+    
+  }
+  .editor{
+    max-width: 740px;
+    margin: auto;
+    padding: 2rem 1rem;
+    line-height: 2rem;
+    font-family: Oxygen;
+    font-weight: 300;
+    color: rgb(77,77,77);
+  }
+}
