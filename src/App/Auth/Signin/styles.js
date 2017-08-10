@@ -11,12 +11,18 @@ export const sidebar = {
   justifyContent: 'center',
   textAlign: 'center'
 }
+export const goSignup = {
+  fontWeight: '300', 
+  fontSize:'1.125rem', 
+  margin: '1rem 0 2rem 0', 
+  lineHeight:'1.625rem'
+}
 export const presentation = {
   display: 'flex',
   flexDirection: 'column',
   flex: '1',
   alignItems: 'center',
-  background: '#6a50a7',
+  background: '#27ae61',
   justifyContent: 'center'
 }
 
@@ -45,7 +51,7 @@ export const input = {
   minHeight: '3.125rem',
   margin:'.31rem 0',
   textAlign: 'center',
-  fontSize:'.98rem',
+  fontSize:'.88rem',
   ':focus': {
     background: '#fff',
     border: '.1rem solid #a9b7b7'
@@ -57,11 +63,11 @@ export const input = {
 export const button = {
   borderRadius: '1rem',
   border: 'none',
-  background: '#4d4d4d',
+  background: '#27ae61',
   height: '3.125rem',
   width: '100%',
   color:'#fff',
   fontFamily: 'Oxygen',
-  fontSize:'.98rem',
+  fontSize:'.88rem',
   margin: '1rem 0 2rem 0'
 }

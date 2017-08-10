@@ -1,11 +1,13 @@
 import React from 'react'
 import { Signin } from './Auth'
-import { Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
+import Editor from './Editor'
 
 const App = () => (
-  <div>
+  <Switch>
+    <Route path='/editor' component={Editor} />
     <Route path='/' component={Signin} />
-  </div>
+  </Switch>
 )
 
 export default App

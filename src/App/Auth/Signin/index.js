@@ -16,7 +16,7 @@ const Signin = () => (
       <div style={{width: '17rem'}}>
         <div style={{margin: '1rem auto'}}>
           <div style={{fontSize: '1.225rem'}}>Let's go in road</div>
-          <div style={{fontWeight: '300', fontSize:'1.125rem', margin: '1rem auto', lineHeight:'1.625rem'}}>
+          <div style={styles.goSignup}>
             New here? Join to the best community <span style={{fontWeight: '500'}}>creating your account.</span>
           </div>
         </div>
